@@ -1,0 +1,6 @@
+text = "berkan GELİNCİK"
+if text.endswith("GELİNCİK"):
+    text = text.replace("GELİNCİK","gelinicik")
+text = text.title()
+text = "|".join(list(text))
+print(text)
